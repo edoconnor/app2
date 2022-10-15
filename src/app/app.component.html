@@ -23,8 +23,10 @@
       </div>
       <div class="modal-body">
         <form
+          action="https://mailthis.to/ed@oconnor.app"
           name="contact"
           method="POST"
+          encType="multipart/form-data"
           data-netlify="true"
           class="contact-form"
         >
@@ -56,6 +58,7 @@
               required
             ></textarea>
           </div>
+          <input type="hidden" name="_after" value="https://www.oconnor.app/" />
           <input
             class="btn btn-primary"
             type="button"
@@ -63,10 +66,6 @@
             type="submit"
             value="Send"
           />
-
-          <!-- <div class="submit-button-wrapper">
-            <input type="submit" value="Send" />
-          </div> -->
         </form>
       </div>
     </div>
