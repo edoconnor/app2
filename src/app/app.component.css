@@ -10,19 +10,22 @@
   text-decoration: none;
   color: white;
 }
-.example-icon {
-  background-color: transparent;
-  border: none;
-}
-.icon, .logo {
-  vertical-align: middle;
-  margin-right: 0.75rem;
-}
 
-.icon {
-  text-decoration: none;
-  color: white;
-}
 svg {
   fill: white;
+  width: 1em;
+  margin-right: 1rem;
+}
+input.form-control {
+  border-color: #2c3e50;
+}
+textarea.form-control {
+  border-color: #2c3e50;
+}
+.modal-body {
+  background-color: white;
+}
+#staticBackdropLabel {
+  color: #2c3e50;
+  padding: 5;
 }
