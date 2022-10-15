@@ -1,0 +1,28 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+/* mat-icon {
+  color: white;
+} */
+
+.title {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.example-icon {
+  background-color: transparent;
+  border: none;
+}
+.icon, .logo {
+  vertical-align: middle;
+  margin-right: 0.75rem;
+}
+
+.icon {
+  text-decoration: none;
+  color: white;
+}
+svg {
+  fill: white;
+}
