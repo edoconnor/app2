@@ -39,5 +39,14 @@ textarea.form-control {
 }
 #staticBackdropLabel {
   color: #2c3e50;
-  padding: 5;
+  margin-left: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+div.modal-header {
+  padding: 10px;
+}
+.email.btn.btn-primary {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
