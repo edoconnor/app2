@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare function tl(): any;
-
 declare const window: any;
 
 @Component({
@@ -17,7 +15,6 @@ export class AppComponent implements OnInit {
     this.formModal = new window.bootstrap.Modal(
       document.getElementById('staticBackdrop')
     );
-    tl();
   }
   openModal() {
     this.formModal.show();
